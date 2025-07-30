@@ -1,5 +1,8 @@
 name: Azure Static Web Apps CI/CD
 
+env:
+  NODE_VERSION: '16.8.0'                # set this to the node version to use
+
 on:
   push:
     branches:
