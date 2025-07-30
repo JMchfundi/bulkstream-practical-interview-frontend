@@ -1,0 +1,187 @@
+export const menuItems = [
+  {
+    id: 1,
+    label: "Dashboard",
+    icon: "ri-dashboard-line",
+    link: "/kaufer/dashboard",
+  },
+  {
+    id: 2,
+    label: "Create",
+    icon: "ri-wallet-3-line",
+    subItems: [
+      { id: 3, label: "New Group", link: "/form" },
+      { id: 4, label: "New Client", link: "/form" },
+      { id: 5, label: "New Loan", link: "/form" },
+      { id: 6, label: "New Officer", link: "/form" },
+      { id: 7, label: "New Station", link: "/form" },
+    ],
+  },
+  {
+    id: 8,
+    label: "Finance",
+    icon: "ri-bank-line",
+    subItems: [
+      { id: 9, label: "Chart of Accounts", link: "/form" },
+      { id: 10, label: "New Product Definition", link: "/form" },
+      { id: 11, label: "Approval Benchmark", link: "/display" },
+      {
+        id: 12,
+        label: "Bankings",
+        subItems: [
+          { id: 13, label: "Receipt", link: "/tresentry" },
+          { id: 14, label: "Receipt Batch", link: "/tresentry" },
+          { id: 15, label: "Voucher", link: "/tresentry" },
+        ],
+      },
+      { id: 16, label: "Disbursements", link: "/display" },
+    ],
+  },
+  {
+    id: 70,
+    label: "Inventory",
+    icon: "ri-archive-2-line",
+    subItems: [
+      { id: 71, label: "Item Categories", link: "/display" },
+      { id: 72, label: "Item List", link: "/display" },
+      { id: 73, label: "Stock In", link: "/display" },
+      { id: 74, label: "Stock Out", link: "/display" },
+      { id: 75, label: "Stock Adjustments", link: "/display" },
+      { id: 76, label: "Inventory Reports", link: "/display" },
+    ],
+  },
+  {
+    id: 19,
+    label: "Reports",
+    icon: "ri-file-chart-fill",
+    subItems: [
+      {
+        id: 20,
+        label: "Repayments",
+        icon: "ri-hand-coin-line",
+        subItems: [
+          { id: 21, label: "All Withdrawals", link: "/display" },
+          { id: 22, label: "Loan Repayment - Savings", link: "/display" },
+          { id: 23, label: "Loan Repayment - BDA", link: "/display" },
+          { id: 24, label: "Loan Repayment - Journal Entry", link: "/display" },
+          {
+            id: 25,
+            label: "Loan Repayment - BDA Settlement",
+            link: "/display",
+          },
+        ],
+      },
+      {
+        id: 26,
+        label: "Portfolio at Risk (PAR)",
+        icon: "ri-shield-line",
+        subItems: [
+          { id: 27, label: "By Branch", link: "/display" },
+          { id: 28, label: "By Region", link: "/display" },
+          { id: 29, label: "Company-wide", link: "/display" },
+        ],
+      },
+      {
+        id: 30,
+        label: "Deposits Summary",
+        icon: "ri-bank-line",
+        subItems: [
+          { id: 31, label: "By Group", link: "/display" },
+          { id: 32, label: "By Officer", link: "/display" },
+          { id: 33, label: "By Branch", link: "/display" },
+        ],
+      },
+      {
+        id: 34,
+        label: "Sales Reports",
+        icon: "ri-bar-chart-2-fill",
+        subItems: [
+          { id: 35, label: "Daily - By Officer", link: "/display" },
+          { id: 36, label: "Daily - By Branch", link: "/display" },
+          { id: 37, label: "Weekly - By Region", link: "/display" },
+          { id: 38, label: "Monthly - Company", link: "/display" },
+        ],
+      },
+      {
+        id: 39,
+        label: "Outstanding Loan Balances (OLB)",
+        icon: "ri-money-dollar-circle-line",
+        subItems: [
+          { id: 40, label: "By Group", link: "/display" },
+          { id: 41, label: "By Officer", link: "/display" },
+          { id: 42, label: "By Branch", link: "/display" },
+          { id: 43, label: "By Region", link: "/display" },
+          { id: 44, label: "Company-wide", link: "/display" },
+        ],
+      },
+      {
+        id: 45,
+        label: "Arrears",
+        icon: "ri-alarm-warning-line",
+        subItems: [
+          { id: 46, label: "By Group", link: "/display" },
+          { id: 47, label: "By Officer", link: "/display" },
+          { id: 48, label: "By Branch", link: "/display" },
+          { id: 49, label: "By Region", link: "/display" },
+          { id: 50, label: "Company-wide", link: "/display" },
+        ],
+      },
+      {
+        id: 51,
+        label: "Officer Reports",
+        icon: "ri-user-voice-line",
+        subItems: [
+          { id: 52, label: "All Officer Entries", link: "/display" },
+          { id: 53, label: "Officer Performance", link: "/display" },
+        ],
+      },
+      {
+        id: 54,
+        label: "Bulk Action Reports",
+        icon: "ri-task-line",
+        subItems: [
+          { id: 55, label: "Client Creation", link: "/display" },
+          { id: 56, label: "Client Closure", link: "/display" },
+          { id: 57, label: "Loan Creation to Disbursement", link: "/display" },
+          { id: 58, label: "Loan Repayments", link: "/display" },
+          { id: 59, label: "Loan Closure", link: "/display" },
+          { id: 60, label: "Loan Rejection", link: "/display" },
+          { id: 61, label: "Loan Abandonment", link: "/display" },
+          { id: 62, label: "Loan Rescheduling", link: "/display" },
+        ],
+      },
+      {
+        id: 63,
+        label: "Financial Reports",
+        icon: "ri-coins-line",
+        subItems: [
+          { id: 64, label: "Balance Sheet", link: "/display" },
+          { id: 65, label: "Trial Balance", link: "/display" },
+          { id: 66, label: "Profit & Loss Statement (P&L)", link: "/display" },
+          { id: 67, label: "Income Statement", link: "/display" },
+          { id: 68, label: "Cash Flow Statement", link: "/display" },
+          { id: 69, label: "General Ledger", link: "/display" },
+        ],
+      },
+    ],
+  },
+  {
+    id: 80,
+    label: "Users",
+    icon: "ri-group-fill",
+    subItems: [
+      {
+        id: 81,
+        label: "Activity Logs",
+        icon: "ri-shield-star-line",
+        link: "/display",
+      },
+      {
+        id: 82,
+        label: "Manage Roles",
+        icon: "ri-shield-star-line",
+        link: "/display",
+      },
+    ],
+  },
+];
