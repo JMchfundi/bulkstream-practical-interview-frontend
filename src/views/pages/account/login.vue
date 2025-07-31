@@ -4,8 +4,8 @@
     <div class="card p-4 shadow-lg"
       style="max-width: 400px; width: 100%; border-radius: 20px; backdrop-filter: blur(15px); background: rgba(255, 255, 255, 0.25); border: 1px solid rgba(255, 255, 255, 0.3);">
       <div class="text-center mb-4">
-        <h1 class="text-dark mb-1" style="font-weight: 700;">TRES - Finsis</h1>
-        <h5 class="text-dark" style="font-style: italic;">BoreshaMaisha</h5>
+        <h1 class="text-dark mb-1" style="font-weight: 700;">TRES - BulkStream</h1>
+        <h5 class="text-dark" style="font-style: italic;">Practical Interview</h5>
       </div>
 
       <h2 class="text-center mb-4 text-dark">Welcome Back!</h2>
