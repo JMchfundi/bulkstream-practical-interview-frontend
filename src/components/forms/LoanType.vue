@@ -536,7 +536,7 @@ export default {
           await loanTypeApi.update(this.loanTypeId, payload);
           alert.success('Loan Type updated successfully!');
         } else {
-          // Create new loan type
+          // Create history type
           await loanTypeApi.create(payload);
           alert.success('Loan Type created successfully!');
         }

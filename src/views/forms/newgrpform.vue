@@ -223,7 +223,7 @@ export default {
           <h6 class="m-0 text-uppercase d-flex">
             <a v-b-toggle.accordion-1 class="text-success w-100 d-flex align-items-center justify-content-between ml-1"
               href="javascript: void(0);">
-              New Group Parameters
+              tabulate Parameters
               <span class="text-right"><i class="ri-information-fill p-icon"></i></span>
             </a>
           </h6>

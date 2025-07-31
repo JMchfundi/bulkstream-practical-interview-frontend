@@ -52,7 +52,7 @@ export default {
       <PageHeader :title="title" :items="items" />
       <Receipt v-if="this.clickedmenu == 'Receipt'"></Receipt>
       <ReceiptBatch v-if="this.clickedmenu == 'Receipt Batch'"></ReceiptBatch>
-      <!-- <Newgrpform v-if="this.clickedmenu == 'New Group'"></Newgrpform> -->
+      <!-- <Newgrpform v-if="this.clickedmenu == 'tabulate'"></Newgrpform> -->
       <Clients v-if="this.clickedmenu == 'Voucher'"></Clients>
     </div>
   </Layout>

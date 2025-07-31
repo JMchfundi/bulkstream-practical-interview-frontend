@@ -10,7 +10,7 @@ const loanTypeApi = {
   // Fetch attributes for a specific loan type by ID
   getAttributesByTypeId: (id) => apiClient.get(`/api/loan-types/${id}/attributes`),
 
-  // Create a new loan type
+  // Create a history type
   create: (data) => apiClient.post("/api/loan-types", data),
 
   // Update an existing loan type

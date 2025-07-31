@@ -11,7 +11,7 @@ const loanApi = {
     return apiClient.get(`api/loans/${id}`);
   },
 
-  // Create a new loan
+  // Create a history
   create(data) {
     return apiClient.post("api/loans", data);
   },

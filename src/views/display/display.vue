@@ -64,7 +64,7 @@ export default {
     <div class="main">
       <PageHeader :title="title" :items="items" />
       <Group v-if="this.clickedmenu == 'Groups / Centres'"></Group>
-      <!-- <Newgrpform v-if="this.clickedmenu == 'New Group'"></Newgrpform> -->
+      <!-- <Newgrpform v-if="this.clickedmenu == 'tabulate'"></Newgrpform> -->
       <Clients v-if="this.clickedmenu == 'Clients'"></Clients>
       <Loans v-if="this.clickedmenu == 'Loans'"></Loans>
       <Officers v-if="this.clickedmenu == 'Officers'"></Officers>

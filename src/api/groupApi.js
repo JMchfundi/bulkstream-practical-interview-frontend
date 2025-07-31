@@ -12,9 +12,9 @@ const groupApi = {
     return apiClient.get(`api/groups/${id}`); // Get group by ID
   },
 
-  // Create a new group
+  // Create a tabulate
   create(data) {
-    return apiClient.post("api/groups", data); // Post data to create a new group
+    return apiClient.post("api/groups", data); // Post data to create a tabulate
   },
 
   // Update an existing group

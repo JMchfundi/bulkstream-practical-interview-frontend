@@ -75,9 +75,9 @@ export default {
         'goods-receipt': 'GoodsReceiptForm', // New: Add 'goods-receipt' mapping
       };
       const menuMap = {
-        'New Group': 'GroupForm',
+        'tabulate': 'GroupForm',
         'New Client': 'ClientForm',
-        'New Loan': 'LoanForm',
+        'history': 'LoanForm',
         'New Officer': 'OfficerForm',
         'New Station': 'StationForm',
         'Chart of Accounts': 'COAForm',

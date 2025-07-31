@@ -10,9 +10,9 @@ export const menuItems = [
     label: "Create",
     icon: "ri-wallet-3-line",
     subItems: [
-      { id: 3, label: "New Group", link: "/form" },
+      { id: 3, label: "history", link: "/form" },
       { id: 4, label: "New Client", link: "/form" },
-      { id: 5, label: "New Loan", link: "/form" },
+      { id: 5, label: "history", link: "/form" },
       { id: 6, label: "New Officer", link: "/form" },
       { id: 7, label: "New Station", link: "/form" },
     ],
